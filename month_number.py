@@ -2,45 +2,45 @@
 
 # Created by: Huzaifa
 # Created on: March 2022
-# This function takes a random integer between 0-9
-# and tells the user if they guessed corretly
+# This function takes a random integer between 1-12 from the user
+# and tells them what the month is accordingly
 
 import random
 
 
 def main():
-    # this function takes a random integer between 0-9
-    # and tells the user if they guessed corretly
+    # This function takes a random integer between 1-12 from the user
+    # and tells them what the month is accordingly
 
     # input
-    user_guess = int(input("Insert any number between 0-12 (integers): "))
+    user_guess = int(input("Insert any number between 1-12 (integers): "))
     print("")
 
     # process and output
     if user_guess == 1:
-        print("The month is January")
+        print("it's January")
     elif user_guess == 2:
-        print("The month is February")
+        print("it's February")
     elif user_guess == 3:
-        print("The month is March")
+        print("it's March")
     elif user_guess == 4:
-        print("The month is April")
+        print("it's April")
     elif user_guess == 5:
-        print("The month is May")
+        print("it's May")
     elif user_guess == 6:
-        print("The month is June")
+        print("it's June")
     elif user_guess == 7:
-        print("The month is July")
+        print("it's July")
     elif user_guess == 8:
-        print("The month is August")
+        print("it's August")
     elif user_guess == 9:
-        print("The month is September")
+        print("it's September")
     elif user_guess == 10:
-        print("The month is October")
+        print("it's October")
     elif user_guess == 11:
-        print("The month is November")
+        print("it's November")
     elif user_guess == 12:
-        print("The month is December")
+        print("it's December")
     else:
         print("Sorry big man I got nothing ¯\_(ツ)_/¯ ")
 
