@@ -43,6 +43,7 @@ def main():
         print("it's December")
     else:
         print("Sorry big man I got nothing ¯\_(ツ)_/¯ ")
+    print("\nDone")
 
 
 if __name__ == "__main__":
